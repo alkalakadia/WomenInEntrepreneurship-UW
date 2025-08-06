@@ -101,16 +101,16 @@ export function Calendar() {
     const newDate = new Date(currentDate)
     if (direction === "prev") {
       newDate.setMonth(newDate.getMonth() - 1)
-      if (newDate.getFullYear() >= startDate.getFullYear() && newDate.getMonth() >= startDate.getMonth()) {
+      // Fixed logic: Allow navigation if new date is not before September 2025
+      if (newDate.getFullYear() > startDate.getFullYear() || 
+          (newDate.getFullYear() === startDate.getFullYear() && newDate.getMonth() >= startDate.getMonth())) {
         setCurrentDate(newDate)
-        // Clear selected events when changing months
         setSelectedEvents([])
         setActiveDay(null)
       }
     } else {
       newDate.setMonth(newDate.getMonth() + 1)
       setCurrentDate(newDate)
-      // Clear selected events when changing months
       setSelectedEvents([])
       setActiveDay(null)
     }
@@ -164,8 +164,10 @@ export function Calendar() {
     }
   }
 
-  const isPrevMonthDisabled =
-    currentDate.getFullYear() === startDate.getFullYear() && currentDate.getMonth() <= startDate.getMonth()
+  // Fixed logic for disable state
+  const isPrevMonthDisabled = 
+    currentDate.getFullYear() < startDate.getFullYear() || 
+    (currentDate.getFullYear() === startDate.getFullYear() && currentDate.getMonth() <= startDate.getMonth())
 
   return (
     <div className="calendar-container">
@@ -173,7 +175,7 @@ export function Calendar() {
         <button className="calendar-nav-btn" onClick={() => navigateMonth("prev")} disabled={isPrevMonthDisabled}>
           ←
         </button>
-        <h2>{currentDate.toLocaleString("default", { month: "long", year: "numeric" })}</h2>
+        <h2 className="calendar-month-title">{currentDate.toLocaleString("default", { month: "long", year: "numeric" })}</h2>
         <button className="calendar-nav-btn" onClick={() => navigateMonth("next")}>
           →
         </button>
@@ -215,23 +217,25 @@ export function Calendar() {
         <div className="event-list">
           {selectedEvents.map((event, index) => (
             <div key={index} className="event-card">
-              <h3>{event.title}</h3>
-              <p>
-                <strong>Date:</strong>{" "}
-                {new Date(event.date + "T00:00:00").toLocaleDateString("en-US", {
-                  weekday: "long",
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </p>
-              <p>
-                <strong>Time:</strong> {event.time}
-              </p>
-              <p>
-                <strong>Location:</strong> {event.location}
-              </p>
-              <p>{event.description}</p>
+              <h3 className="event-title">{event.title}</h3>
+              <div className="event-details">
+                <p className="event-detail">
+                  <strong>Date:</strong>{" "}
+                  {new Date(event.date + "T00:00:00").toLocaleDateString("en-US", {
+                    weekday: "long",
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </p>
+                <p className="event-detail">
+                  <strong>Time:</strong> {event.time}
+                </p>
+                <p className="event-detail">
+                  <strong>Location:</strong> {event.location}
+                </p>
+              </div>
+              <p className="event-description">{event.description}</p>
             </div>
           ))}
         </div>
