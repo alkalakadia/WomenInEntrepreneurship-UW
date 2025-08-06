@@ -12,34 +12,27 @@ interface Event {
 
 const events: Event[] = [
   {
-    title: "Founder's Panel",
-    date: "2025-08-15",
-    time: "2:00 PM - 4:00 PM",
-    location: "Business School",
-    description: "Join us for a panel of founders to discuss their journey and advice.",
+    title: "UW Entrepreneurship Kickoff",
+    date: "2025-09-12",
+    time: "4:00 PM - 6:00 PM (Networking: 6:30 PM)",
+    location: "Engineering Centers Building",
+    description: "Start your year with innovation and inspiration at the UW Entrepreneurship Kickoff! Join us for a dynamic student org fair featuring a variety of entrepreneurial clubs across campus. Whether you're looking to launch your own startup, connect with like-minded innovators or explore new ideas, this is your chance to meet student leaders, learn about upcoming opportunities and get involved in the growing entrepreneurship community at UW!",
   },
   {
-    title: "Networking Night",
-    date: "2025-09-20",
-    time: "6:00 PM - 8:00 PM",
-    location: "WID",
-    description: "Connect with successful women entrepreneurs and industry leaders.",
-  },
-  {
-    title: "Pitch Competition",
-    date: "2025-10-10",
-    time: "5:00 PM - 7:00 PM",
-    location: "Grainger Hall",
-    description: "Come pitch your idea to a panel of judges and win prizes!",
+    title: "Female Founder Panel",
+    date: "2025-09-18",
+    time: "5:30 PM - 7:00 PM",
+    location: "Sellery Hall",
+    description: "What does it take to turn an idea into a thriving business? Come hear from five female entrepreneurs who did just that! Join us for an unforgettable night featuring powerhouse founders Kenzie Beam, Grace Berbig, Ashley Storck, Shelby Ostad and Sara Buszka as they share the remarkable stories and insightful strategies behind their ventures. From passion projects to successful businesses, these women are redefining success on their own terms. Stick around after the panel for open networking and light appetizers!",
   },
 ]
 
 export function Calendar() {
-  const [currentDate, setCurrentDate] = useState(new Date(2025, 7))
+  const [currentDate, setCurrentDate] = useState(new Date(2025, 8)) // September 2025
   const [selectedEvents, setSelectedEvents] = useState<Event[]>([])
   const [activeDay, setActiveDay] = useState<string | null>(null)
 
-  const startDate = new Date(2025, 7)
+  const startDate = new Date(2025, 8) // September 2025 (month is 0-indexed)
 
   const navigateMonth = (direction: "prev" | "next") => {
     const newDate = new Date(currentDate)
