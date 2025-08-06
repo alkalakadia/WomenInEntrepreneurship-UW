@@ -8,6 +8,8 @@ interface Event {
   time: string
   location: string
   description: string
+  registrationLink?: string
+  weNotificationLink?: string
 }
 
 const events: Event[] = [
@@ -17,6 +19,8 @@ const events: Event[] = [
     time: "4:00 PM - 6:00 PM (Networking: 6:30 PM)",
     location: "Engineering Centers Building",
     description: "Start your year with innovation and inspiration at the UW Entrepreneurship Kickoff! Join us for a dynamic student org fair featuring a variety of entrepreneurial clubs across campus. Whether you're looking to launch your own startup, connect with like-minded innovators or explore new ideas, this is your chance to meet student leaders, learn about upcoming opportunities and get involved in the growing entrepreneurship community at UW!",
+    registrationLink: "https://lu.ma/kj9zkjeh",
+    weNotificationLink: "https://partiful.com/e/ANOySzoE2whM0ENol1lj",
   },
   {
     title: "Female Founder Panel",
@@ -236,6 +240,31 @@ export function Calendar() {
                 </p>
               </div>
               <p className="event-description">{event.description}</p>
+              
+              {(event.registrationLink || event.weNotificationLink) && (
+                <div className="event-links">
+                  {event.registrationLink && (
+                    <a 
+                      href={event.registrationLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="event-link-btn registration-btn"
+                    >
+                      📝 Register Here
+                    </a>
+                  )}
+                  {event.weNotificationLink && (
+                    <a 
+                      href={event.weNotificationLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="event-link-btn notification-btn"
+                    >
+                      🔔 Let WE Know You're Going
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>
