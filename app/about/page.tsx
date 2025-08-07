@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from "next/link"
+import { EventsLink } from "@/components/events-link"
 
 export default function About() {
   return (
@@ -39,7 +39,7 @@ export default function About() {
 
         {/* Clickable Events Card Section */}
         <div className="events-showcase-section">
-          <Link href="/events" className="events-card-link" onClick={() => window.scrollTo(0, 0)}>
+          <EventsLink className="events-card-link">
             <div className="events-card">
               <div className="events-card-content">
                 <div className="events-card-text">
@@ -74,7 +74,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </Link>
+          </EventsLink>
         </div>
       </div>
     </div>
