@@ -1574,7 +1574,14 @@ html {
 
   .join-us-button {
     top: 20px;
-    right: 80px;
+    right: 85px; /* Increased spacing from menu icon */
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+  
+  .join-us-text {
+    display: none; /* Hide text on smaller screens to prevent overlap */
   }
 
   .home-container {
@@ -1719,9 +1726,16 @@ html {
 
 @media (max-width: 640px) {
   .join-us-button {
-    right: 80px; /* Better spacing on smaller screens */
-    padding: 9px 14px;
-    font-size: 0.85rem;
+    right: 75px; /* Better spacing on smaller screens */
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  .join-us-text {
+    display: none; /* Keep text hidden */
   }
 }
 
@@ -1738,7 +1752,9 @@ html {
 
   .join-us-button {
     top: 15px;
-    right: 70px;
+    right: 65px; /* More space from menu */
+    width: 35px;
+    height: 35px;
   }
 
   .home-container {
@@ -1882,7 +1898,9 @@ html {
 
   .join-us-button {
     top: 12px;
-    right: 65px;
+    right: 60px; /* Maximum spacing for very small screens */
+    width: 32px;
+    height: 32px;
   }
 
   .home-container {
@@ -2673,8 +2691,10 @@ html {
 /* Ensure proper spacing and prevent overlap */
 @media (max-width: 320px) {
   .join-us-button {
+    top: 12px;
     right: 60px; /* Maximum compression for very small screens */
-    padding: 6px 8px;
+    width: 32px;
+    height: 32px;
   }
 
   .menu-icon {

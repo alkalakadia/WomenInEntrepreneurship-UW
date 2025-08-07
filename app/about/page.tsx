@@ -37,6 +37,62 @@ export default function About() {
           </div>
         </div>
 
+        {/* What We Offer Section */}
+        <div className="events-description-section">
+          <div className="events-overview">
+            <h2 className="section-title">What We Offer</h2>
+            <div className="events-categories">
+              <div className="event-category">
+                <h3>🎯 Skill-Building Workshops</h3>
+                <p>Hands-on sessions covering everything from idea validation and market research to pitch development and MVP building. Learn practical skills you can apply immediately.</p>
+              </div>
+              <div className="event-category">
+                <h3>🎤 Speaker Panels & Fireside Chats</h3>
+                <p>Hear from successful female founders, industry leaders, and executives who share their journeys, insights, and lessons learned from building impactful ventures.</p>
+              </div>
+              <div className="event-category">
+                <h3>🤝 Networking & Social Events</h3>
+                <p>Connect with like-minded peers, build lasting relationships, and expand your entrepreneurial network through mixers, collaborative events, and fun social gatherings.</p>
+              </div>
+              <div className="event-category">
+                <h3>🚀 Pitch Competitions & Showcases</h3>
+                <p>Practice your presentation skills, get feedback on your ideas, and compete in creative pitch formats that make entrepreneurship accessible and engaging.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="ventureher-pipeline">
+            <h2 className="section-title">VentureHER Pipeline</h2>
+            <p className="pipeline-description">
+              Our signature hands-on track designed for students ready to take their ideas to the next level. The VentureHER Pipeline 
+              provides structured support as you move from initial concept to validated business model to working prototype.
+            </p>
+            <div className="pipeline-stages">
+              <div className="pipeline-stage">
+                <div className="stage-number">1</div>
+                <div className="stage-content">
+                  <h4>Ideation & Validation</h4>
+                  <p>Refine your concept, conduct market research, and validate your assumptions with real customer feedback.</p>
+                </div>
+              </div>
+              <div className="pipeline-stage">
+                <div className="stage-number">2</div>
+                <div className="stage-content">
+                  <h4>Building & Development</h4>
+                  <p>Create your minimum viable product (MVP) with guidance from mentors and access to resources and tools.</p>
+                </div>
+              </div>
+              <div className="pipeline-stage">
+                <div className="stage-number">3</div>
+                <div className="stage-content">
+                  <h4>Launch & Scale</h4>
+                  <p>Connect with industry professionals, potential investors, and real-world opportunities to bring your venture to market.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Clickable Events Card Section */}
         <div className="events-showcase-section">
           <EventsLink className="events-card-link">
