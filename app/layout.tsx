@@ -5,6 +5,7 @@ import "./globals.css"
 import { Sidebar } from "@/components/sidebar"
 import { TopLogo } from "@/components/top-logo"
 import { Footer } from "@/components/footer"
+import { JoinUsButton } from "@/components/join-us-button"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,7 +32,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable}`}>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (typeof window !== 'undefined') {
+                window.addEventListener('beforeunload', () => {
+                  window.scrollTo(0, 0);
+                });
+              }
+            `,
+          }}
+        />
         <TopLogo />
+        <JoinUsButton />
         <Sidebar />
         {children}
         <Footer />

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function About() {
   return (
@@ -34,6 +35,46 @@ export default function About() {
               not just participants in the entrepreneurial world — but the most fearless, future-shaping leaders.
             </p>
           </div>
+        </div>
+
+        {/* Clickable Events Card Section */}
+        <div className="events-showcase-section">
+          <Link href="/events" className="events-card-link" onClick={() => window.scrollTo(0, 0)}>
+            <div className="events-card">
+              <div className="events-card-content">
+                <div className="events-card-text">
+                  <h2 className="events-card-title">Our Events</h2>
+                  <p className="events-card-description">
+                    From interactive workshops and inspiring speaker panels to hands-on pitch competitions and networking mixers, 
+                    our events create spaces where ideas flourish and connections spark innovation.
+                  </p>
+                  <p className="events-card-pipeline">
+                    <strong>VentureHER Pipeline:</strong> Our signature hands-on track that takes you from initial idea validation 
+                    to building real MVPs with mentorship and industry support.
+                  </p>
+                  <div className="events-card-cta">
+                    <span className="cta-text">Explore Our Events</span>
+                    <span className="cta-arrow">→</span>
+                  </div>
+                </div>
+                <div className="events-card-image">
+                  <div className="creative-image-border">
+                    <div className="image-border-outer">
+                      <div className="image-border-inner">
+                        <Image
+                          src="/assets/we-event-photo.png"
+                          alt="WE event with students in classroom"
+                          width={600}
+                          height={400}
+                          className="card-image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
