@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Women in Entrepreneurship - WE",
   description: "Empowering Future Leaders in Entrepreneurship at UW-Madison",
   keywords: "women entrepreneurship, UW-Madison, business, leadership, startups, female founders",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
