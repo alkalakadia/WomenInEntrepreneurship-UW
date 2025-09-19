@@ -35,24 +35,17 @@ const events: Event[] = [
   {
     title: "Canva Venture Vision Boards",
     date: "2025-09-23",
-    time: "5:00 PM - 6:00 PM",
-    location: "WSB",
+    time: "5:00 PM - 6:30 PM",
+    location: "Grainger 2167",
     description:
       "Join us for a social night where you'll create your own venture vision board using Canva, enjoy ice cream and meet fellow entrepreneurial-minded students! Whether you're dreaming of launching a startup, building a brand or just exploring new ideas, this is the perfect space to get inspired and connect. This is also a great opportunity for you to meet the WE team and learn about open director roles if you're interested in building your leadership skills!",
-  },
-  {
-    title: "UW Tech Lab Opening",
-    date: "2025-09-25",
-    time: "TBD",
-    location: "Tech Lab",
-    description:
-      "Curious about emerging tech? Have an entrepreneurial idea you're ready to explore? Just want to learn and build something cool? The UW Tech Lab is your new launchpad! Whether you're diving into AI, XR, robotics, blockchain, IoT or something still being invented, the Lab offers the tools, mentorship, and hands-on opportunities to help you turn curiosity into capability. You'll learn how to advance your own ideas with expert support, collaborate on real industry-driven projects, work in cross-disciplinary teams tackling today's biggest tech challenges, gain hands-on experience with cutting-edge tools, and connect with mentors and professionals in the field.",
+    weNotificationLink: "https://partiful.com/e/hxINKDDUtkCs5QD50M0w",
   },
   {
     title: "Cynthia Chu Fireside Chat",
     date: "2025-09-29",
-    time: "4:00 PM CST / 5:00 PM EST",
-    location: "TBD (Tech Lab/WSB)",
+    time: "5:00 PM - 6:00 PM CT",
+    location: "Grainger 1185",
     description:
       "Join us for an intimate and inspiring Fireside Chat with the CFO of Audible, Cynthia Chu! A trailblazing leader known for her bold vision, strategic insight, and dynamic career. In this conversation, Cynthia will share her journey from early career moves to pivotal leadership moments as well as lessons learned along the way. She'll also discuss navigating challenges, driving innovation and what it takes to lead with purpose in today's fast-changing world. You don't want to miss it!",
   },
