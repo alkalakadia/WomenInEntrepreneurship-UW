@@ -64,6 +64,18 @@ export default function Team() {
           </p>
         </div>
 
+        {/* Alka and Trinity Co-Presidents Photo */}
+        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <Image
+            src="/assets/IMG_9272.HEIC"
+            alt="WE Co-Presidents Alka and Trinity"
+            width={1200}
+            height={400}
+            style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            priority
+          />
+        </div>
+
         <div className="team-grid">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member">
@@ -81,6 +93,20 @@ export default function Team() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Executive Team Photo */}
+        <div style={{ marginTop: "60px" }}>
+          <h2 className="section-title" style={{ textAlign: "center", marginBottom: "40px" }}>Executive Team</h2>
+          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)", maxWidth: "1000px", margin: "0 auto" }}>
+            <Image
+              src="/assets/IMG_0828.jpeg"
+              alt="WE Executive Team"
+              width={1000}
+              height={600}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            />
+          </div>
         </div>
       </div>
     </div>
