@@ -111,7 +111,7 @@ const events: Event[] = [
   },
   {
     title: "Caroline Lakshmanan: CEO/Co-Founder of Cloud Closet",
-    date: "2025-02-05",
+    date: "2026-02-05",
     time: "7:00 PM - 8:00 PM",
     location: "2335 Grainger Hall",
     description:
@@ -120,7 +120,7 @@ const events: Event[] = [
   },
   {
     title: "WE: Info Session",
-    date: "2025-02-12",
+    date: "2026-02-12",
     time: "6:00 PM - 7:00 PM",
     location: "2339 Grainger Hall",
     description:
@@ -129,7 +129,7 @@ const events: Event[] = [
   },
   {
     title: "Jillian Yanick: Financial Advisor and Director of Development, Northwestern Mutual",
-    date: "2025-03-03",
+    date: "2026-03-03",
     time: "6:00 PM - 7:00 PM",
     location: "Grainger Hall",
     description:
