@@ -15,13 +15,13 @@ export default function GetInvolved() {
         </div>
 
         {/* Main Hero Image - FullSizeRender_VSCO.jpg */}
-        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)", maxWidth: "900px", margin: "0 auto 60px" }}>
           <Image
             src="/assets/FullSizeRender_VSCO.jpg"
             alt="Join our community of women entrepreneurs"
-            width={1200}
-            height={400}
-            style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            width={900}
+            height={300}
+            style={{ width: "100%", height: "auto", objectFit: "cover", maxHeight: "300px" }}
             priority
           />
         </div>
@@ -61,45 +61,6 @@ export default function GetInvolved() {
               </div>
               <span className="social-text">Email Us</span>
             </a>
-          </div>
-        </div>
-
-        {/* Community Photos Gallery */}
-        <div style={{ marginTop: "60px", marginBottom: "60px" }}>
-          <h2 className="section-title" style={{ textAlign: "center", marginBottom: "40px" }}>Join Our Community</h2>
-          <div style={{ 
-            display: "grid", 
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", 
-            gap: "20px",
-            marginBottom: "40px"
-          }}>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-              <Image
-                src="/assets/IMG_9063.HEIC"
-                alt="Community event 1"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-              <Image
-                src="/assets/IMG_9067.HEIC"
-                alt="Community event 2"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-              <Image
-                src="/assets/IMG_9255.heic"
-                alt="Community event 3"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
           </div>
         </div>
 

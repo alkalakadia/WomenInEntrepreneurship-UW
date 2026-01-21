@@ -85,7 +85,7 @@ export default function About() {
           }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_0112.HEIC"
+                src="/assets/IMG_9063.HEIC"
                 alt="Community event 1"
                 width={400}
                 height={300}
@@ -94,7 +94,7 @@ export default function About() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_8912.HEIC"
+                src="/assets/IMG_9067.HEIC"
                 alt="Community event 2"
                 width={400}
                 height={300}
@@ -103,7 +103,7 @@ export default function About() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_8919.HEIC"
+                src="/assets/IMG_9257.heic"
                 alt="Community event 3"
                 width={400}
                 height={300}

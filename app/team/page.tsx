@@ -64,16 +64,36 @@ export default function Team() {
           </p>
         </div>
 
-        {/* Alka and Trinity Co-Presidents Photo */}
-        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-          <Image
-            src="/assets/IMG_9272.HEIC"
-            alt="WE Co-Presidents Alka and Trinity"
-            width={1200}
-            height={400}
-            style={{ width: "100%", height: "auto", objectFit: "cover" }}
-            priority
-          />
+        {/* Executive Team Photo with Alka and Trinity photos on sides */}
+        <div style={{ marginBottom: "60px", display: "grid", gridTemplateColumns: "1fr 2fr 1fr", gap: "20px", alignItems: "center" }}>
+          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+            <Image
+              src="/assets/IMG_9272.HEIC"
+              alt="Alka and Trinity"
+              width={400}
+              height={500}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            />
+          </div>
+          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+            <Image
+              src="/assets/IMG_0828.jpeg"
+              alt="WE Executive Team"
+              width={800}
+              height={600}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              priority
+            />
+          </div>
+          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+            <Image
+              src="/assets/IMG_0832.jpeg"
+              alt="Alka and Trinity"
+              width={400}
+              height={500}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            />
+          </div>
         </div>
 
         <div className="team-grid">
@@ -93,20 +113,6 @@ export default function Team() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Executive Team Photo */}
-        <div style={{ marginTop: "60px" }}>
-          <h2 className="section-title" style={{ textAlign: "center", marginBottom: "40px" }}>Executive Team</h2>
-          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)", maxWidth: "1000px", margin: "0 auto" }}>
-            <Image
-              src="/assets/IMG_0828.jpeg"
-              alt="WE Executive Team"
-              width={1000}
-              height={600}
-              style={{ width: "100%", height: "auto", objectFit: "cover" }}
-            />
-          </div>
         </div>
       </div>
     </div>
