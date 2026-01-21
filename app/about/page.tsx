@@ -103,7 +103,7 @@ export default function About() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_9257.jpg"
+                src="/assets/IMG_8919.jpg"
                 alt="Community event 3"
                 width={400}
                 height={300}

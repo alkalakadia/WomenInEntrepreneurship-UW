@@ -24,7 +24,7 @@ export default function Events() {
           }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_9257.jpg"
+                src="/assets/IMG_0112.jpg"
                 alt="Event highlight 1"
                 width={400}
                 height={300}
@@ -42,7 +42,7 @@ export default function Events() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_0832.jpeg"
+                src="/assets/IMG_8912.jpg"
                 alt="Event highlight 3"
                 width={400}
                 height={300}
