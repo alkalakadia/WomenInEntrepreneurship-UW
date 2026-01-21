@@ -50,44 +50,56 @@ const events: Event[] = [
       "Join us for an intimate and inspiring Fireside Chat with the CFO of Audible, Cynthia Chu! A trailblazing leader known for her bold vision, strategic insight, and dynamic career. In this conversation, Cynthia will share her journey from early career moves to pivotal leadership moments as well as lessons learned along the way. She'll also discuss navigating challenges, driving innovation and what it takes to lead with purpose in today's fast-changing world. You don't want to miss it!",
   },
   {
-    title: "SHEeo Jeopardy: Guess the Founder",
+    title: "Riley Bohage: WSB Guest Speaker",
     date: "2025-10-07",
-    time: "5:00 PM - 6:00 PM",
-    location: "WSB",
+    time: "5:30 PM - 6:30 PM",
+    location: "WSB RM 2167",
     description:
-      "Think you know your female founders? Put your knowledge to the test in a round of SHEeo Jeopardy! A fun, fast-paced trivia night with snacks where you'll guess the female founders behind groundbreaking brands, startups, and innovations. Bring your friends, join a team and compete for prizes!",
+      "Featuring: Riley Bohage, Wisconsin School of Business, Assistant Director of Admissions and Recruitment, MBA and Master's Programs. We're excited to welcome Riley Bohage from the Wisconsin School of Business to speak with Women in Entrepreneurship! Riley will discuss the 6 specialized master's programs that are open to both business and non-business majors — no prior business background required! These programs are designed to equip students with essential business acumen, including an entrepreneurship-focused curriculum, helping you prepare for the job market or launch your own venture. Whether you're planning to start your own business or just curious about how a graduate degree can sharpen your skills, this is a fantastic opportunity to learn more and ask questions! This is a great opportunity to learn about grad programs tailored for all majors, discover entrepreneurship pathways, connect with a representative from the Wisconsin School of Business, ask about admissions, career outcomes and more.",
+    registrationLink: "https://partiful.com/e/rEC2dIIGjODEQcilT12e",
   },
   {
-    title: "Work Session: Check-In",
+    title: "WE Spark Lab",
     date: "2025-10-14",
     time: "5:00 PM - 6:00 PM",
-    location: "Tech Lab",
+    location: "2185 Grainger Hall",
     description:
       "Have a business idea, passion project or startup you're trying to launch? Need help figuring out your next steps? Drop in to our work session check-in! A casual, open space for students who want guidance, feedback or hands-on support with launching a venture or working on any entrepreneurial project. Whether you're just getting started or already deep into your build, this is your chance to ask questions, get advice from mentors and staff, make progress and connect with like-minded students! Bring your ideas, your laptop, and your questions. We're here to help!",
+    registrationLink: "https://partiful.com/e/frXmDwNx515eXbGU0k5i",
   },
   {
-    title: "Entrepreneurship Debate Showdown",
+    title: "WE Social Event",
     date: "2025-10-21",
-    time: "5:00 PM - 6:00 PM",
-    location: "WSB",
+    time: "5:30 PM",
+    location: "Grainger Hall RM 2080",
     description:
-      "Join us for an Entrepreneurship Debate Showdown, where students will go head-to-head tackling hot takes and bold claims about the world of startups, innovation and business. Teams will be given surprise prompts and must argue for or against! Expect big opinions, fast thinking and a great deal of entrepreneurial energy. Whether you're competing or just watching, this event will challenge your thinking and spark fresh ideas. No experience is needed, just bring your voice and your passion! Snacks provided.",
+      "Join us for a fun Halloween social where we'll be celebrating together!",
   },
   {
-    title: "Validate Event: Idea Validation & Research",
-    date: "2025-10-28",
-    time: "TBD",
-    location: "Tech Lab",
-    description:
-      "Join us for a comprehensive workshop on idea validation and research methods. Learn how to test your business concepts, gather meaningful customer feedback, and make data-driven decisions about your venture. This hands-on session will equip you with the tools and frameworks needed to validate your ideas before investing significant time and resources. Perfect for aspiring entrepreneurs at any stage of their journey!",
-  },
-  {
-    title: "WE x Transcend Collab Event",
+    title: "WE x Transcend Collab Event: Start Smart: What I Wish I Knew",
     date: "2025-11-06",
-    time: "TBD",
-    location: "TBD",
+    time: "6:30 PM - 8:00 PM",
+    location: "1570 Morgride Hall",
     description:
-      "A candid conversation with founders on the early lessons that shaped their journey! Starting a venture is exciting but let's be real, it's also messy, unpredictable and full of lessons you only learn the hard way. In this panel, you'll hear from founders as they reflect on their early days such as the pivots, aha moments and the unexpected challenges that helped shape their path. They'll share what they wish they knew when they started, how they navigated uncertainty, and what advice they'd give to anyone stepping into the world of startups. Whether you're building something now, thinking about your first venture or just curious about the behind-the-scenes of startup life, this event will offer insights and stories you won't find in any textbook!",
+      "A Candid Conversation with Founders on the Early Lessons That Shaped Their Journey. Starting a venture is exciting — but it's also messy, unpredictable, and full of lessons you only learn by doing. In this panel, founders open up about the missteps, pivots, aha moments, and real challenges they faced in their early days. They'll share what they wish they knew when they started, how they overcame early obstacles, and what advice they'd give to aspiring innovators just beginning their journey. Whether you're building now, dreaming of your first venture, or just curious about startup life — this conversation will give you insights you won't find in a textbook. Panelists: Marina Bloomer from Stellar Tech Girls, she runs a summer camp to encourage more women in tech. Derviş Gursöy (founder of Spraycision). Sydney Gang, the founder and CEO of Skip the Warm-Up and early stage entrepreneur.",
+  },
+  {
+    title: "Speaker Event: Hali Jama",
+    date: "2025-11-12",
+    time: "5:30 PM - 6:30 PM",
+    location: "WSB RM 3190",
+    description:
+      "Join us for a speaker event featuring Hali Jama. More details available in the RSVP link.",
+    registrationLink: "https://partiful.com/e/AwMApzqZqyQl5R8NH3Hc",
+  },
+  {
+    title: "Speaker Event: Adhira Sunkara - Problems Worth Solving",
+    date: "2025-11-18",
+    time: "5:30 PM - 6:30 PM",
+    location: "WSB RM 1070",
+    description:
+      "Think you need a big idea to be an entrepreneur? Think again. Problems Worth Solving is a one-hour design sprint where you'll spot everyday challenges, brainstorm creative fixes, and map out how your idea could come to life. No experience needed. Just bring your curiosity and a willingness to think differently. Adhira Sunkara, PhD - Adhira is an innovation strategist and ecosystem architect driven by a passion for helping founders and communities bring new ideas to life. With a Ph.D. in biomedical engineering and early-stage experience as a med-tech founder, she bridges technical insight with venture strategy. Over the past decade, she has worked hands-on with startups and ecosystem partners to advance tech-based entrepreneurship across Wisconsin and beyond—mobilizing millions in federal, state, and private investment to help organizations and founders turn research and ideas into scalable impact.",
+    registrationLink: "https://partiful.com/e/BHAd7boyNLtdXWFIT4PJ",
   },
   {
     title: "PJ Pitch Night & Pastries",
