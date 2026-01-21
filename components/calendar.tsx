@@ -103,11 +103,37 @@ const events: Event[] = [
   },
   {
     title: "PJ Pitch Night & Pastries",
-    date: "2025-11-11",
-    time: "5:00 PM - 6:00 PM",
-    location: "WSB",
+    date: "2025-12-02",
+    time: "7:00 PM - 8:00 PM",
+    location: "Morgridge Undergraduate Lounge",
     description:
       "Put on your coziest pajamas and bring your wildest 2 a.m. business ideas to life at our PJ Pitch Night! This isn't your average pitch competition. It's Shark Tank meets slumber party with hot cocoa, chaotic startup themes and plenty of laughter! How it works: You'll be randomly paired with teammates from different majors or class years, draw a totally out-there business prompt (think: a dating app for houseplants or pajamas that turn into business suits when you cartwheel), incorporate fun wildcards like celebrity endorsements, PR scandals or subscription-only models. You'll have 30 minutes to build your pitch (including project deck) and present to our panel of mock investors (with candy and gift cards as your 'funding'). We hope to see you there!",
+  },
+  {
+    title: "Caroline Lakshmanan: CEO/Co-Founder of Cloud Closet",
+    date: "2025-02-05",
+    time: "7:00 PM - 8:00 PM",
+    location: "2335 Grainger Hall",
+    description:
+      "Caroline Lakshmanan is a fashion-tech visionary with a background in luxury merchandising and digital innovation. As the co-founder and CEO of Cloud Closet, she is rethinking the way we interact with our wardrobes by building a social platform that treats getting dressed as a collaborative, social experience. Inspired by viral fashion trends, Caroline founded Cloud Closet to solve the clunky nature of digital wardrobe management. From Parisian luxury houses like Celine to the cutting edge of social commerce, join us as Caroline shares her journey of building a startup that turns fashion hacks into a global social wardrobe.",
+    registrationLink: "https://partiful.com/e/yBjg6KDsHJzuYEJQIGFr?c=xisdlwwk",
+  },
+  {
+    title: "WE: Info Session",
+    date: "2025-02-12",
+    time: "6:00 PM - 7:00 PM",
+    location: "2339 Grainger Hall",
+    description:
+      "Come hang out with us! Want to know what we're all about? We'll walk you through how our membership works, including the new points system we're rolling out this semester. You'll earn points for showing up to events, and there are fun rewards when you hit certain milestones. You'll even get points just for coming to this meeting! We'll also share all the cool events we have planned and do some activities so you can meet other members and make new friends. Plus, snacks. Obviously.",
+    registrationLink: "https://partiful.com/e/YImnUzmHcebujqsbqwyR?c=wN7fW1dq",
+  },
+  {
+    title: "Jillian Yanick: Financial Advisor and Director of Development, Northwestern Mutual",
+    date: "2025-03-03",
+    time: "6:00 PM - 7:00 PM",
+    location: "Grainger Hall",
+    description:
+      "Come hear Jillian Yanick's incredible journey with Northwestern Mutual, from her beginnings as a College Financial Representative intern to establishing her own successful financial planning practice and rising to a leadership position. Discover her insights on navigating a male-dominated industry and overcoming challenges as an entrepreneur. Don't miss this opportunity to learn from Jillian's unique experiences and gain valuable advice.",
   },
 ]
 
