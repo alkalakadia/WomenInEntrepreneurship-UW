@@ -58,17 +58,18 @@ export default function Team() {
         </div>
 
         {/* Executive Team Photo with Alka and Trinity photos on sides */}
-        <div style={{ marginBottom: "60px", display: "grid", gridTemplateColumns: "1fr 2fr 1fr", gap: "20px", alignItems: "center" }}>
-          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+        <div className="team-photos-grid" style={{ marginBottom: "60px", display: "grid", gridTemplateColumns: "1fr 2fr 1fr", gap: "20px", alignItems: "center" }}>
+          <div className="team-photo-item" style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.15)" }}>
             <Image
               src="/assets/IMG_9272.jpg"
               alt="Alka and Trinity"
               width={400}
               height={500}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              className="team-photo-image"
             />
           </div>
-          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div className="team-photo-item team-photo-center" style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.15)" }}>
             <Image
               src="/assets/IMG_0828.jpeg"
               alt="WE Executive Team"
@@ -76,15 +77,17 @@ export default function Team() {
               height={600}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
               priority
+              className="team-photo-image"
             />
           </div>
-          <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div className="team-photo-item" style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.15)" }}>
             <Image
               src="/assets/IMG_0832.jpeg"
               alt="Alka and Trinity"
               width={400}
               height={500}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              className="team-photo-image"
             />
           </div>
         </div>

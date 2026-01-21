@@ -77,37 +77,32 @@ export default function About() {
         {/* Community Photo Gallery */}
         <div style={{ marginTop: "60px", marginBottom: "60px" }}>
           <h2 className="section-title" style={{ textAlign: "center", marginBottom: "40px" }}>Our Community in Action</h2>
-          <div style={{ 
-            display: "grid", 
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", 
-            gap: "20px",
-            marginBottom: "40px"
-          }}>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div className="image-gallery-grid">
+            <div className="image-gallery-item">
               <Image
                 src="/assets/IMG_9063.jpg"
                 alt="Community event 1"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                fill
+                className="gallery-image"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+            <div className="image-gallery-item">
               <Image
                 src="/assets/IMG_9067.jpg"
                 alt="Community event 2"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                fill
+                className="gallery-image"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+            <div className="image-gallery-item">
               <Image
                 src="/assets/IMG_8919.jpg"
                 alt="Community event 3"
-                width={400}
-                height={300}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                fill
+                className="gallery-image"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
           </div>

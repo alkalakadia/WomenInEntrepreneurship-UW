@@ -2697,3 +2697,281 @@ html {
     height: 36px;
   }
 }
+
+/* Image Gallery Styles with Animations */
+.image-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.image-gallery-item {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.6s ease-out backwards;
+  cursor: pointer;
+}
+
+.image-gallery-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.image-gallery-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.image-gallery-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.image-gallery-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.image-gallery-item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(212, 156, 133, 0.3);
+}
+
+.image-gallery-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.image-gallery-item:hover::before {
+  opacity: 1;
+}
+
+.gallery-image {
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.image-gallery-item:hover .gallery-image {
+  transform: scale(1.1);
+}
+
+/* Enhanced fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scroll reveal animation */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Pulse animation for interactive elements */
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Enhanced hover effects for cards */
+.event-category {
+  transition: all 0.3s ease;
+}
+
+.event-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(212, 156, 133, 0.2);
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, .event-category, .team-member {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Enhanced team member cards */
+.team-member {
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.team-member:nth-child(1) { animation-delay: 0.1s; }
+.team-member:nth-child(2) { animation-delay: 0.2s; }
+.team-member:nth-child(3) { animation-delay: 0.3s; }
+.team-member:nth-child(4) { animation-delay: 0.4s; }
+.team-member:nth-child(5) { animation-delay: 0.5s; }
+.team-member:nth-child(6) { animation-delay: 0.6s; }
+
+.team-member:hover {
+  transform: translateY(-6px);
+}
+
+/* Responsive adjustments for image gallery */
+@media (max-width: 768px) {
+  .image-gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  
+  .image-gallery-item {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* Team Photos Grid Animations */
+.team-photos-grid {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.team-photo-item {
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.team-photo-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.team-photo-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.team-photo-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.team-photo-item:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(212, 156, 133, 0.3);
+}
+
+.team-photo-image {
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-photo-item:hover .team-photo-image {
+  transform: scale(1.05);
+}
+
+/* Enhanced page header animations */
+.page-header {
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.page-title {
+  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.page-subtitle {
+  animation: fadeInUp 0.8s ease-out 0.4s backwards;
+}
+
+/* Smooth section transitions */
+.connect-section,
+.events-description-section {
+  animation: fadeInUp 0.8s ease-out backwards;
+  animation-delay: 0.3s;
+}
+
+.section-title {
+  position: relative;
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+/* Enhanced card hover effects */
+.events-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.events-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(212, 156, 133, 0.25);
+}
+
+/* Smooth button animations */
+.cta-button,
+.event-link-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cta-button::before,
+.event-link-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.cta-button:hover::before,
+.event-link-btn:hover::before {
+  left: 100%;
+}
+
+.cta-button:hover,
+.event-link-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(212, 156, 133, 0.3);
+}
+
+/* Responsive team photos grid */
+@media (max-width: 968px) {
+  .team-photos-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+  
+  .team-photo-item {
+    max-width: 100%;
+  }
+}
