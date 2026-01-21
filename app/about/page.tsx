@@ -18,7 +18,7 @@ export default function About() {
         {/* Main Community Photo */}
         <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
           <Image
-            src="/assets/IMG_9264.HEIC"
+            src="/assets/IMG_9264.jpg"
             alt="Women in Entrepreneurship community"
             width={1200}
             height={400}
@@ -85,7 +85,7 @@ export default function About() {
           }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_9063.HEIC"
+                src="/assets/IMG_9063.jpg"
                 alt="Community event 1"
                 width={400}
                 height={300}
@@ -94,7 +94,7 @@ export default function About() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_9067.HEIC"
+                src="/assets/IMG_9067.jpg"
                 alt="Community event 2"
                 width={400}
                 height={300}
@@ -103,7 +103,7 @@ export default function About() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/assets/IMG_9257.heic"
+                src="/assets/IMG_9257.jpg"
                 alt="Community event 3"
                 width={400}
                 height={300}

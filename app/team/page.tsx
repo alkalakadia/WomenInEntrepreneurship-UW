@@ -37,13 +37,6 @@ const teamMembers = [
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.45%E2%80%AFPM-HfW26e9F6QcBOifsg6Eqbpgh7lX1nY.png",
   },
   {
-    name: "Aveyna Mao",
-    role: "VP of Events",
-    bio: "Hi, I'm Aveyna! I'm serving as the Vice President of Events for Women in Entrepreneurship, this school year. I'm so excited to help this organization grow as well as getting to enhance my skill set in innovation and creation. Outside of WE, I'm always looking for ways to immerse myself with leadership work, data analytics projects and community involvement opportunities. Feel free to reach out to WE if you have any specific events you want from us!",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.07%E2%80%AFPM-j7yULutEzmZmcnN6Gq7GwS7Bt97vyU.png",
-  },
-  {
     name: "Kailie Pumper",
     role: "VP of Internal Relations",
     bio: "I am deeply excited to be the VP of Internal Relations where I manage internal club operations, including record-keeping, meeting coordination, and communications to support WE's mission. Driven by a passion for innovation, I love exploring new ideas and experiences, as well supporting my community through volunteering, and growing my knowledge in the financial industry to build a purposeful and impactful career.",
@@ -68,7 +61,7 @@ export default function Team() {
         <div style={{ marginBottom: "60px", display: "grid", gridTemplateColumns: "1fr 2fr 1fr", gap: "20px", alignItems: "center" }}>
           <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
             <Image
-              src="/assets/IMG_9272.HEIC"
+              src="/assets/IMG_9272.jpg"
               alt="Alka and Trinity"
               width={400}
               height={500}

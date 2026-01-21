@@ -15,13 +15,13 @@ export default function GetInvolved() {
         </div>
 
         {/* Main Hero Image - FullSizeRender_VSCO.jpg */}
-        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)", maxWidth: "900px", margin: "0 auto 60px" }}>
+        <div style={{ marginBottom: "60px", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
           <Image
             src="/assets/FullSizeRender_VSCO.jpg"
             alt="Join our community of women entrepreneurs"
-            width={900}
-            height={300}
-            style={{ width: "100%", height: "auto", objectFit: "cover", maxHeight: "300px" }}
+            width={1200}
+            height={500}
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
             priority
           />
         </div>
