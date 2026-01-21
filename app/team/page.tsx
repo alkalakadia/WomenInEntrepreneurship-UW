@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Alka Lakadia",
     role: "President of Innovation", // Updated title
-    bio: "As a Co-founder and the President of Innovation, I lead the VentureHER pipeline, a hands-on track that helps students validate ideas, build MVPs, and connect with mentors and real-world industry support. My passion lives at the intersection of AI, startups, and creating spaces where women feel empowered to build fearlessly. When I'm not fueling the next wave of changemakers, you'll probably find me chasing sunsets at Mem U, exploring new cafés and restaurants, listening to music, or deep in a founder brainstorm. Always up for chatting about startups, ideas, or life over good coffee or boba.",
+    bio: "As a Co-founder and the President of Innovation, I help students validate ideas, build MVPs, and connect with mentors and real-world industry support. I also help plan events, workshops, and guest speaker sessions. My passion lives at the intersection of AI, startups, and creating spaces where women feel empowered to build fearlessly. When I'm not fueling the next wave of changemakers, you'll probably find me chasing sunsets at Mem U, exploring new cafés and restaurants, listening to music, or deep in a founder brainstorm. Always up for chatting about startups, ideas, or life over good coffee or boba.",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.28.21%E2%80%AFPM-biLUeehHlLD82BWoiFkmjmg89bs5bs.png",
   },

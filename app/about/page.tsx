@@ -60,37 +60,6 @@ export default function About() {
               </div>
             </div>
           </div>
-
-          <div className="ventureher-pipeline">
-            <h2 className="section-title">VentureHER Pipeline</h2>
-            <p className="pipeline-description">
-              Our signature hands-on track designed for students ready to take their ideas to the next level. The VentureHER Pipeline 
-              provides structured support as you move from initial concept to validated business model to working prototype.
-            </p>
-            <div className="pipeline-stages">
-              <div className="pipeline-stage">
-                <div className="stage-number">1</div>
-                <div className="stage-content">
-                  <h4>Ideation & Validation</h4>
-                  <p>Refine your concept, conduct market research, and validate your assumptions with real customer feedback.</p>
-                </div>
-              </div>
-              <div className="pipeline-stage">
-                <div className="stage-number">2</div>
-                <div className="stage-content">
-                  <h4>Building & Development</h4>
-                  <p>Create your minimum viable product (MVP) with guidance from mentors and access to resources and tools.</p>
-                </div>
-              </div>
-              <div className="pipeline-stage">
-                <div className="stage-number">3</div>
-                <div className="stage-content">
-                  <h4>Launch & Scale</h4>
-                  <p>Connect with industry professionals, potential investors, and real-world opportunities to bring your venture to market.</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Clickable Events Card Section */}
@@ -103,10 +72,6 @@ export default function About() {
                   <p className="events-card-description">
                     From interactive workshops and inspiring speaker panels to hands-on pitch competitions and networking mixers, 
                     our events create spaces where ideas flourish and connections spark innovation.
-                  </p>
-                  <p className="events-card-pipeline">
-                    <strong>VentureHER Pipeline:</strong> Our signature hands-on track that takes you from initial idea validation 
-                    to building real MVPs with mentorship and industry support.
                   </p>
                   <div className="events-card-cta">
                     <span className="cta-text">Explore Our Events</span>
