@@ -43,6 +43,12 @@ const teamMembers = [
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.34%E2%80%AFPM-083Elk9RjtRCOqhBfPyLJdvpQsk2CA.png",
   },
+  {
+    name: "Ella Riutta",
+    role: "VP of Events",
+    bio: "As VP of Events for Women in Entrepreneurship, I am dedicated to creating impactful experiences that bring our community together. I lead the planning and execution of our club's events, and I ensure that every detail aligns with our mission to empower and connect aspiring female leaders. Outside of WE, you'll find me working with the fashion tech startup Cloud Closet, planning my next travel adventure, or at a coffee shop for a strong chai latte!",
+    image: "/assets/ella.jpg",
+  },
 ]
 
 export default function Team() {
