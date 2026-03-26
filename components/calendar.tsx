@@ -128,6 +128,33 @@ const events: Event[] = [
     registrationLink: "https://partiful.com/e/YImnUzmHcebujqsbqwyR?c=wN7fW1dq",
   },
   {
+    title: "Community Building: Partnering with Babies and Beyond",
+    date: "2026-03-12",
+    time: "6:00 PM",
+    location: "2210S Grainger Hall",
+    description:
+      "Join WE for a Community Building event in partnership with Babies and Beyond! Help us assemble Mother's Day care packages with self-care items and encouraging notes to support moms in our community. We are also accepting donations to help fund the care packages — any amount helps! First 25 donors will receive a free gift card for a slice of Ian's Pizza! Venmo: @faytheluedke. Plus, connect with a Red Bull representative and grab a free drink!",
+    registrationLink: "https://lnkd.in/geg56b2f",
+  },
+  {
+    title: "WE x WACM: #IAMRemarkable Workshop with Maggie Roemer",
+    date: "2026-03-19",
+    time: "6:00 PM - 8:00 PM",
+    location: "2516 Morgridge",
+    description:
+      "#IAMRemarkable is a 90-minute workshop designed to help you confidently celebrate your achievements, challenge the stigma around self-promotion, and own your story — in the workplace and beyond. Join WE and WACM UW-Madison for this workshop with Maggie Roemer, Software Engineer at Google! Come build your confidence, learn how to advocate for your achievements, and connect with others. Plus, Ian's Pizza will be served!",
+    registrationLink: "https://lnkd.in/ghXquFR5",
+  },
+  {
+    title: "Marketing Makeover",
+    date: "2026-03-24",
+    time: "6:00 PM - 7:00 PM",
+    location: "WSB 2510",
+    description:
+      "Ready to level up your marketing skills? Join us for Marketing Makeover! Learn how to build your personal brand, design your own logo with AI, create a marketing strategy, and improve a real brand's marketing. Dirty soda bar, popcorn, and prizes included! Bring your friends and come ready to create. Groups will present their creations for a chance to win prizes — 1st & 2nd place: Starbucks gift card, 3rd place: Ian's Pizza slice gift card. Powered by Microsoft Copilot.",
+    registrationLink: "https://lnkd.in/gCw33VyV",
+  },
+  {
     title: "Jillian Yanick: Financial Advisor and Director of Development, Northwestern Mutual",
     date: "2026-03-03",
     time: "6:00 PM - 7:00 PM",
@@ -138,7 +165,7 @@ const events: Event[] = [
 ]
 
 export function Calendar() {
-  const [currentDate, setCurrentDate] = useState(new Date(2025, 8)) // September 2025
+  const [currentDate, setCurrentDate] = useState(() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth()) })
   const [selectedEvents, setSelectedEvents] = useState<Event[]>([])
   const [activeDay, setActiveDay] = useState<string | null>(null)
 
