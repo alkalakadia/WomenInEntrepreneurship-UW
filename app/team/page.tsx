@@ -17,17 +17,10 @@ const teamMembers = [
   },
   {
     name: "Olivia Pozza",
-    role: "VP of External", // Updated role
-    bio: "Hi everyone! I'm Olivia, and I'm thrilled to serve as VP of External of the Women in Entrepreneurship student organization at UW–Madison. I co-founded WE to empower ambitious and creative women to connect, collaborate, and grow in whatever step they may be in their entrepreneurial journeys. I'm studying Consumer Behavior & Marketplace Studies, Entrepreneurship, and Business, and I'm passionate about turning bold ideas into real impact. Co-founding this club with Trinity has been one of the most rewarding parts of college, and I'm excited to help others build confidence and access the tools they need to launch ventures. Whether it's through hosting events, creating content, or providing mentorship, I'm eager to help WE thrive on campus. Outside of WE, you'll find me grabbing a matcha latte on State Street, hitting the gym, exploring new study spots, FaceTiming my family (mostly asking to see the dog), shopping, and spending time with friends. Can't wait to connect with you all!",
+    role: "VP of Marketing",
+    bio: "Hi everyone! I'm Olivia, and I'm thrilled to serve as VP of Marketing of the Women in Entrepreneurship student organization at UW–Madison. I co-founded WE to empower ambitious and creative women to connect, collaborate, and grow in whatever step they may be in their entrepreneurial journeys. I'm studying Consumer Behavior & Marketplace Studies, Entrepreneurship, and Business, and I'm passionate about turning bold ideas into real impact. Co-founding this club with Trinity has been one of the most rewarding parts of college, and I'm excited to help others build confidence and access the tools they need to launch ventures. Whether it's through hosting events, creating content, or providing mentorship, I'm eager to help WE thrive on campus. Outside of WE, you'll find me grabbing a matcha latte on State Street, hitting the gym, exploring new study spots, FaceTiming my family (mostly asking to see the dog), shopping, and spending time with friends. Can't wait to connect with you all!",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.28.48%E2%80%AFPM-x4Kcma6MAz2sGckSvj0JFIGiwdLEk0.png",
-  },
-  {
-    name: "Audrey Kessler",
-    role: "VP of Marketing",
-    bio: "As VP of Marketing for Women in Entrepreneurship, I help amplify our mission by creating media content that showcases our incredible community and events. I love finding creative ways to tell our story and inspire more women to explore entrepreneurship. Outside of WE, you'll find me drinking coffee and hanging out with good friends!",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.19%E2%80%AFPM-b9fuXcqIQB2pCeflISjj7oNVoe9Oej.png",
   },
   {
     name: "Samantha Fong",
@@ -37,17 +30,28 @@ const teamMembers = [
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.45%E2%80%AFPM-HfW26e9F6QcBOifsg6Eqbpgh7lX1nY.png",
   },
   {
-    name: "Kailie Pumper",
-    role: "VP of Internal Relations",
-    bio: "I am deeply excited to be the VP of Internal Relations where I manage internal club operations, including record-keeping, meeting coordination, and communications to support WE's mission. Driven by a passion for innovation, I love exploring new ideas and experiences, as well supporting my community through volunteering, and growing my knowledge in the financial industry to build a purposeful and impactful career.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-03%20at%2011.29.34%E2%80%AFPM-083Elk9RjtRCOqhBfPyLJdvpQsk2CA.png",
-  },
-  {
     name: "Ella Riutta",
-    role: "VP of Events",
+    role: "VP of External",
     bio: "As VP of Events for Women in Entrepreneurship, I am dedicated to creating impactful experiences that bring our community together. I lead the planning and execution of our club's events, and I ensure that every detail aligns with our mission to empower and connect aspiring female leaders. Outside of WE, you'll find me working with the fashion tech startup Cloud Closet, planning my next travel adventure, or at a coffee shop for a strong chai latte!",
     image: "/assets/ella.jpg",
+  },
+  {
+    name: "Kaitlyn Marking",
+    role: "VP of Events",
+    bio: "I am Kaitlyn Marking, VP of Events, and I am a double major in Entrepreneurship and Management, with a Certificate in Consulting. This year I will work to connect students with industry professionals, foster meaningful networking opportunities, and support the development of future women leaders. I am passionate about creating engaging experiences that encourage innovation and build a strong community of ambitious women. I can't wait to continue to work with like-minded Women and continue to grow this club at UW-Madison.",
+    image: "/assets/kaitlyn.jpg",
+  },
+  {
+    name: "Symone",
+    role: "VP of Internal",
+    bio: "",
+    image: "/placeholder-user.jpg",
+  },
+  {
+    name: "Faythe",
+    role: "VP of Member Relations",
+    bio: "Hi everyone! I'm excited to serve as your VP of Member Relations and have the opportunity to create meaningful experiences that bring our members together while giving back to the community. I'm studying Human Development and Family Studies while also pursuing a Business Certificate, and I'm passionate about connecting with others and finding ways to bring entrepreneurship and community involvement together. Outside of WE, I enjoy spending time with friends, working out, and volunteering!",
+    image: "/assets/faythe.jpg",
   },
 ]
 
