@@ -162,6 +162,14 @@ const events: Event[] = [
     description:
       "Come hear Jillian Yanick's incredible journey with Northwestern Mutual, from her beginnings as a College Financial Representative intern to establishing her own successful financial planning practice and rising to a leadership position. Discover her insights on navigating a male-dominated industry and overcoming challenges as an entrepreneur. Don't miss this opportunity to learn from Jillian's unique experiences and gain valuable advice.",
   },
+  {
+    title: "Women & Entrepreneurship Gala",
+    date: "2026-04-28",
+    time: "6:00 PM - 8:00 PM",
+    location: "Discovery Building",
+    description:
+      "WE's inaugural Women & Entrepreneurship Gala brought UW-Madison students together with Madison-area entrepreneurs and leaders across venture capital, AI, consulting, and consumer products. Each table hosted an entrepreneur for intimate conversation, mentorship, and internship opportunities.",
+  },
 ]
 
 export function Calendar() {
