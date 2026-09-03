@@ -42,7 +42,7 @@ const teamMembers = [
     image: "/assets/kaitlyn.jpg",
   },
   {
-    name: "Symone",
+    name: "Symone Sandoval",
     role: "VP of Internal",
     bio: "",
     image: "/placeholder-user.jpg",
