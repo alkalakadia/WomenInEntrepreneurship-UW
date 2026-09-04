@@ -45,7 +45,7 @@ const teamMembers = [
     name: "Symone Sandoval",
     role: "VP of Internal",
     bio: "As VP of Internal Relations for Women in Entrepreneurship, I'm passionate about building a community where women feel supported, represented, and confident pursuing their goals. I'm especially passionate about immigration advocacy and creating more opportunities and representation for women from underrepresented communities in entrepreneurship and leadership. I'm excited to bring that passion to WE and help create a space where everyone feels like they belong. Outside of WE, I love traveling, finding new coffee shops, and, of course, getting a good coffee. One of my biggest goals is to one day own my own law firm!",
-    image: "/placeholder-user.jpg",
+    image: "/assets/symone.jpg",
   },
   {
     name: "Faythe",
