@@ -32,7 +32,7 @@ const teamMembers = [
   {
     name: "Ella Riutta",
     role: "VP of External",
-    bio: "As VP of Events for Women in Entrepreneurship, I am dedicated to creating impactful experiences that bring our community together. I lead the planning and execution of our club's events, and I ensure that every detail aligns with our mission to empower and connect aspiring female leaders. Outside of WE, you'll find me working with the fashion tech startup Cloud Closet, planning my next travel adventure, or at a coffee shop for a strong chai latte!",
+    bio: "As VP of External for Women in Entrepreneurship, I am dedicated to creating impactful experiences that bring our community together. I lead the planning and execution of our club's events, and I ensure that every detail aligns with our mission to empower and connect aspiring female leaders. Outside of WE, you'll find me working with the fashion tech startup Cloud Closet, planning my next travel adventure, or at a coffee shop for a strong chai latte!",
     image: "/assets/ella.jpg",
   },
   {
@@ -44,7 +44,7 @@ const teamMembers = [
   {
     name: "Symone Sandoval",
     role: "VP of Internal",
-    bio: "",
+    bio: "As VP of Internal Relations for Women in Entrepreneurship, I'm passionate about building a community where women feel supported, represented, and confident pursuing their goals. I'm especially passionate about immigration advocacy and creating more opportunities and representation for women from underrepresented communities in entrepreneurship and leadership. I'm excited to bring that passion to WE and help create a space where everyone feels like they belong. Outside of WE, I love traveling, finding new coffee shops, and, of course, getting a good coffee. One of my biggest goals is to one day own my own law firm!",
     image: "/placeholder-user.jpg",
   },
   {
