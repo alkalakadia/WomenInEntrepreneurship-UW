@@ -19,6 +19,7 @@ export function Footer() {
               <Link href="/about">About</Link>
               <Link href="/team">Team</Link>
               <Link href="/events">Events</Link>
+              <Link href="/blog">Blog</Link>
               <Link href="/get-involved">Get Involved</Link>
             </nav>
           </div>

@@ -1,5 +1,4 @@
 import { Instagram, Users, Linkedin, Mail } from "lucide-react"
-import { ContactForm } from "@/components/contact-form"
 import Image from "next/image"
 
 export default function GetInvolved() {
@@ -61,17 +60,6 @@ export default function GetInvolved() {
               </div>
               <span className="social-text">Email Us</span>
             </a>
-          </div>
-        </div>
-
-        <div className="connect-section">
-          <h2 className="section-title">Contact Us with Questions</h2>
-          <p style={{ textAlign: "center", fontSize: "1.2rem", color: "var(--text-medium)", marginBottom: "40px" }}>
-            Have questions about Women in Entrepreneurship? We'd love to hear from you! Reach out and let's connect.
-          </p>
-
-          <div className="contact-form-container">
-            <ContactForm />
           </div>
         </div>
       </div>
