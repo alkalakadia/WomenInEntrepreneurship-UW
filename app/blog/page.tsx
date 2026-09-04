@@ -27,7 +27,11 @@ export default function Blog() {
             A gala with intention
           </h2>
 
-          {/* Gala photos will be added here once provided */}
+          <img
+            src="/assets/gala-1.jpg"
+            alt="Women in Entrepreneurship executive team at the inaugural WE Gala"
+            style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", display: "block" }}
+          />
 
           <p style={{ marginBottom: "16px", lineHeight: 1.7 }}>
             This spring, Women in Entrepreneurship hosted its inaugural Women and Entrepreneurship Gala,
